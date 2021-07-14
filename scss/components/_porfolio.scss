@@ -1,0 +1,104 @@
+.containerPorfolio{
+    background-image: url("../img/porfolio_fondo.jpg");
+    background-repeat: no-repeat;
+    padding: 1.8em 0 15.5em;
+    width: 100%;
+    background-position: center;
+    background-size:cover;
+    object-fit: contain;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+
+    .containerItemsPorfolio{
+        margin: 20px;
+        height: auto;
+
+        .r-porfolio{
+            .tituloSectionporfolio{
+                font-family:$title-font;
+                color:$color-rosa;
+
+            }
+            .galeriaContenedor{
+                .r-impreso{
+                    .tituloSectionimpreso{
+                        color:$color-gris;
+                        font-family:$title-font;
+                        font-size: 1.5em;
+                        display: flex;
+                    }
+                    .r-impresoitems{
+                        border-radius: 0.5em;
+                        border:  0.15em solid  rgba(100, 148, 237, 0.5);
+
+                        .col-item{
+
+                            img{
+                                width: 100%;
+                                &:hover{
+                                    transform: scale(1.05);
+                                    height: 250px;
+                                    z-index: 1;
+                                }
+
+                            }
+                        }
+                    }
+                }
+                .r-redes{
+                    .tituloSectionredes{
+                        color:$color-gris;
+                        font-family:$title-font;
+                        font-size: 1.5em;
+                        display: flex;
+                    }
+                    .r-redesitems{
+                        border-radius: 0.5em;
+                        border: 0.15em solid  rgba(242, 12, 127, 0.5);
+
+                        .col-item{
+                         img{
+                             width: 100%;
+                             &:hover{
+                                transform: scale(1.05);
+                                height: 250px;
+                                z-index: 1;
+                            }
+                         }
+                        }
+                    }
+                }
+                .r-web{
+                    .tituloSectionweb{
+                        color:$color-gris;
+                        font-family:$title-font;
+                        font-size: 1.5em;
+                        display: flex;
+
+                       }
+                    .r-webitems{
+                        border-radius: 0.5em;
+                        border:  0.15em solid  rgba(58, 242, 12, 0.5);
+
+                        .col-item{
+                         img{
+                                width: 100%;
+                                &:hover{
+                                   transform: scale(1.05);
+                                   height: 250px;
+                                   z-index: 1;
+                               }
+                            }
+                           }
+                    }
+                }
+
+            }
+            
+
+            
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.containerPromo{
+    background-color:$color-blanco;
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+    justify-content:center;
+    align-items: center;
+    .containerItemsPromo{
+        margin-bottom: 7.5em;
+        
+        .tituloSectionPromo{
+            margin-top: 50px;
+            font-family:$title-font;
+            color:$color-rosa;
+
+        }
+        .bajadadeTitulo{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color:$color-gris;
+        }
+
+    }
+}

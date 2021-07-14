@@ -1,0 +1,61 @@
+.containerContacto{
+background-color:$color-rosa;
+width: 100%;
+
+.row{
+    .datosContacto{
+     background-color: rgb(255, 255, 255);
+     padding: 1em;
+     margin: 3em 0;
+
+    .tituloContacto{
+        margin: 1.25em auto;
+        font-size: 1.25em;
+        font-family:$fontDeco1;
+        color:$color-gris;
+        text-align:center
+       
+         }
+
+    .txtImg{
+            display: flex;
+            align-items: center;
+            margin: 10px 20px;
+
+            .txt{
+                width: 270px;
+            }
+
+        }
+         
+    }
+    .formularioContacto{
+        background-color:$color-blanco;
+        padding: 1em;
+        margin: 2em 0;
+        border-radius: 0.5em;
+        box-shadow: 14px 65px 74px -43px rgba(90,90,90,0.75);
+        -webkit-box-shadow: 14px 65px 74px -43px rgba(90,90,90,0.75);
+        -moz-box-shadow: 14px 65px 74px -43px rgba(90,90,90,0.75);
+
+        .tituloContacto{
+            margin: 1.25em auto;
+            font-size: 1.25em;
+            font-family:$fontDeco1;
+            color:$color-gris;
+            text-align:center
+           
+
+        }
+
+        .btnEnviar{
+            background-color:$color-rosa;
+            color:$color-blanco;
+        }
+    }
+
+}
+}
+
+
+

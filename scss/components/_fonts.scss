@@ -1,0 +1,32 @@
+/*FONTS --------------------------------------------------------------------------------*/
+/* @font regla que me permite elegir una fuente que tenga en mi sitio raiz
+-----------------------------------------------------------------------------------------*/
+@font-face {
+    /*defino un nombre*/
+    font-family:"champagnefont";
+    /*la ruta y el formato para los navegadores*/
+    src: url("../fonts/ChampagneBold.woff") format("woff");
+    font-display:swap; /* caga las fonts por desfecto y por ultimo las fuentes propias del sitio y que pensan mucho*/
+}
+
+@font-face {
+    font-family:"lemonregular";
+    src: url("../fonts/lemonmilkregular.otf") format("opentype");
+    font-display:swap;
+}
+@font-face {
+    font-family:"lemonmedium";
+    src: url("../fonts/lemonmilkmedium.otf") format("opentype");
+    font-display:swap;
+}
+
+@font-face {
+    font-family:"lemonbold";
+    src: url("../fonts/LEMONMILK-Bold.otf") format("opentype");
+    font-display:swap;
+}
+@font-face{
+    font-family:"galeano";
+    src: url("../fonts/galeano.ttf") format("truetype");
+    font-display:swap;
+}

@@ -1,0 +1,372 @@
+@charset "UTF-8";
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/*FONTS --------------------------------------------------------------------------------*/
+/* @font regla que me permite elegir una fuente que tenga en mi sitio raiz
+-----------------------------------------------------------------------------------------*/
+@font-face {
+  /*defino un nombre*/
+  font-family: "champagnefont";
+  /*la ruta y el formato para los navegadores*/
+  src: url("../fonts/ChampagneBold.woff") format("woff");
+  font-display: swap;
+  /* caga las fonts por desfecto y por ultimo las fuentes propias del sitio y que pensan mucho*/
+}
+@font-face {
+  font-family: "lemonregular";
+  src: url("../fonts/lemonmilkregular.otf") format("opentype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "lemonmedium";
+  src: url("../fonts/lemonmilkmedium.otf") format("opentype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "lemonbold";
+  src: url("../fonts/LEMONMILK-Bold.otf") format("opentype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "galeano";
+  src: url("../fonts/galeano.ttf") format("truetype");
+  font-display: swap;
+}
+/* HEADER container*/
+header nav .container .navbar-brand .logoImpulsar {
+  width: 5em;
+  margin: 0;
+}
+header nav .container .navbar-collapse .navbarimpulsar li a {
+  text-decoration: none;
+  font-family: "lemonregular";
+  color: #343957;
+  font-size: 14px;
+}
+header nav .container .navbar-collapse .navbarimpulsar li a:hover {
+  color: #FF069F;
+  transition: all 0.8s;
+}
+
+/* Home container*/
+main .containerHome {
+  padding-top: 4em;
+  width: 100%;
+  background-image: url("../img/fondo_w2_top.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+}
+main .containerHome .contAll .homeMain .parrafoHome {
+  margin: 10em 0 0 0;
+  padding: 0;
+}
+main .containerHome .contAll .homeMain .parrafoHome .renglonUno {
+  font-family: "champagnefont";
+  font-size: 1.5em;
+  color: #343957;
+  margin: 0;
+}
+main .containerHome .contAll .homeMain .parrafoHome .renglonUno::after {
+  content: "★";
+  color: #FF069F;
+}
+main .containerHome .contAll .homeMain .parrafoHome .renglonDos {
+  font-family: "lemonbold";
+  font-size: 2.3em;
+  margin: 0;
+}
+main .containerHome .contAll .homeMain .parrafoHome .renglonTres {
+  font-family: "lemonregular";
+  font-size: 2.3em;
+  margin: 0;
+}
+main .containerHome .contAll .homeMain .parrafoHome .renglonCuatro {
+  font-family: "lemonbold";
+  font-size: 2.3em;
+  margin: 0;
+}
+main .containerHome .contAll .homeMain .parrafoHome .renglonCinco {
+  font-family: "lemonregular";
+  font-size: 2.3em;
+  margin: 0;
+}
+main .containerHome .contAll .homeMain .parrafoHome .contacTanos {
+  margin: 0.6em 0 9em 0;
+  text-decoration: none;
+  font-family: "lemonregular";
+  font-size: 0.7em;
+  color: #FFF;
+  padding: 0.45em;
+  border-radius: 1.25em;
+  background-color: #FF069F;
+  display: block;
+  width: 150px;
+  text-align: center;
+}
+main .containerHome .contAll .homeMain .parrafoHome .contacTanos:hover {
+  color: #fff;
+  background-color: #343957;
+}
+main .containerHome .contAll .btnWhatsapp {
+  position: fixed;
+  background-image: url("../img/whatsApp_verde.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+  width: 5em;
+  height: 5em;
+  right: 40px;
+  bottom: 60px;
+  z-index: 1;
+}
+
+.containerHola {
+  background-color: #e5e5ef;
+  padding: 10em 0 3em;
+}
+.containerHola .row {
+  margin: 0;
+}
+.containerHola .row .tituloSectionhola {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: "galeano";
+  color: #FF069F;
+  padding-bottom: 1em;
+}
+.containerHola .row .contenedorItems {
+  background-color: #FF069F;
+  border-radius: 0.25em;
+  padding: 2em 0;
+  width: 90%;
+  box-shadow: 14px 65px 74px -43px rgba(90, 90, 90, 0.75);
+  -webkit-box-shadow: 14px 65px 74px -43px rgba(90, 90, 90, 0.75);
+  -moz-box-shadow: 14px 65px 74px -43px rgba(90, 90, 90, 0.75);
+}
+.containerHola .row .contenedorItems .txtPresentacion {
+  padding: 1em 0;
+}
+.containerHola .row .contenedorItems .txtPresentacion .presentacionHola {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1, 4em;
+  margin: 1em;
+}
+.containerHola .row .contenedorItems .fotoElena {
+  background-image: url("../img/fotoE.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+  width: 11em;
+  height: 11em;
+}
+
+.containerPorfolio {
+  background-image: url("../img/porfolio_fondo.jpg");
+  background-repeat: no-repeat;
+  padding: 1.8em 0 15.5em;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerPorfolio .containerItemsPorfolio {
+  margin: 20px;
+  height: auto;
+}
+.containerPorfolio .containerItemsPorfolio .r-porfolio .tituloSectionporfolio {
+  font-family: "galeano";
+  color: #FF069F;
+}
+.containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-impreso .tituloSectionimpreso {
+  color: #343957;
+  font-family: "galeano";
+  font-size: 1.5em;
+  display: flex;
+}
+.containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-impreso .r-impresoitems {
+  border-radius: 0.5em;
+  border: 0.15em solid rgba(100, 148, 237, 0.5);
+}
+.containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-impreso .r-impresoitems .col-item img {
+  width: 100%;
+}
+.containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-impreso .r-impresoitems .col-item img:hover {
+  transform: scale(1.05);
+  height: 250px;
+  z-index: 1;
+}
+.containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-redes .tituloSectionredes {
+  color: #343957;
+  font-family: "galeano";
+  font-size: 1.5em;
+  display: flex;
+}
+.containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-redes .r-redesitems {
+  border-radius: 0.5em;
+  border: 0.15em solid rgba(242, 12, 127, 0.5);
+}
+.containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-redes .r-redesitems .col-item img {
+  width: 100%;
+}
+.containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-redes .r-redesitems .col-item img:hover {
+  transform: scale(1.05);
+  height: 250px;
+  z-index: 1;
+}
+.containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-web .tituloSectionweb {
+  color: #343957;
+  font-family: "galeano";
+  font-size: 1.5em;
+  display: flex;
+}
+.containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-web .r-webitems {
+  border-radius: 0.5em;
+  border: 0.15em solid rgba(58, 242, 12, 0.5);
+}
+.containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-web .r-webitems .col-item img {
+  width: 100%;
+}
+.containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-web .r-webitems .col-item img:hover {
+  transform: scale(1.05);
+  height: 250px;
+  z-index: 1;
+}
+
+.containerServicios {
+  padding-top: 5em;
+  width: 100%;
+  margin: auto;
+  background-color: #FF069F;
+}
+.containerServicios .containerItemsServicios {
+  margin: 0 auto 1.8em;
+  padding-bottom: 2em;
+}
+.containerServicios .containerItemsServicios .r-Servicios .tituloSectionservicios {
+  font-family: "galeano";
+  padding-bottom: 1em;
+  color: #fff;
+  width: auto;
+}
+
+.containerPromo {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  padding-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.containerPromo .containerItemsPromo {
+  margin-bottom: 7.5em;
+}
+.containerPromo .containerItemsPromo .tituloSectionPromo {
+  margin-top: 50px;
+  font-family: "galeano";
+  color: #FF069F;
+}
+.containerPromo .containerItemsPromo .bajadadeTitulo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #343957;
+}
+
+.containerContacto {
+  background-color: #FF069F;
+  width: 100%;
+}
+.containerContacto .row .datosContacto {
+  background-color: white;
+  padding: 1em;
+  margin: 3em 0;
+}
+.containerContacto .row .datosContacto .tituloContacto {
+  margin: 1.25em auto;
+  font-size: 1.25em;
+  font-family: "lemonbold";
+  color: #343957;
+  text-align: center;
+}
+.containerContacto .row .datosContacto .txtImg {
+  display: flex;
+  align-items: center;
+  margin: 10px 20px;
+}
+.containerContacto .row .datosContacto .txtImg .txt {
+  width: 270px;
+}
+.containerContacto .row .formularioContacto {
+  background-color: #fff;
+  padding: 1em;
+  margin: 2em 0;
+  border-radius: 0.5em;
+  box-shadow: 14px 65px 74px -43px rgba(90, 90, 90, 0.75);
+  -webkit-box-shadow: 14px 65px 74px -43px rgba(90, 90, 90, 0.75);
+  -moz-box-shadow: 14px 65px 74px -43px rgba(90, 90, 90, 0.75);
+}
+.containerContacto .row .formularioContacto .tituloContacto {
+  margin: 1.25em auto;
+  font-size: 1.25em;
+  font-family: "lemonbold";
+  color: #343957;
+  text-align: center;
+}
+.containerContacto .row .formularioContacto .btnEnviar {
+  background-color: #FF069F;
+  color: #fff;
+}
+
+footer {
+  background-color: #343957;
+  padding: 1em 0 1em;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+footer .footerContainerItems {
+  width: 70%;
+}
+footer .footerContainerItems .logoFooter {
+  display: flex;
+  justify-content: center;
+}
+footer .footerContainerItems .copyRigths {
+  display: flex;
+  justify-content: center;
+  color: fff;
+  padding: 1.7em 0 0 0;
+}
+footer .footerContainerItems .reDes {
+  display: flex;
+  width: 6em;
+  padding: 1em 0 0;
+}
+
+.error404 {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.error404 h1 {
+  color: #FF069F;
+  margin-top: 1em;
+  font-family: "lemonregular";
+}
+
+/*# sourceMappingURL=style.css.map */

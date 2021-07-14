@@ -1,0 +1,31 @@
+/* HEADER container*/
+header{
+    nav{
+       
+        .container{
+            .navbar-brand{
+                     .logoImpulsar{
+                         width:5em;
+                         margin: 0;
+                     }
+            }
+            .navbar-collapse{
+                .navbarimpulsar{
+                    li{
+                        a{
+                            text-decoration: none;
+                            font-family:$fontDeco2;
+                            color: $color-gris;
+                            font-size: 14px;
+                            &:hover {
+                                color:$color-rosa;
+                                transition: all 0.8s;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}

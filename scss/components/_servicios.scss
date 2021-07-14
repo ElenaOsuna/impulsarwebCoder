@@ -1,0 +1,27 @@
+.containerServicios{
+    padding-top: 5em;
+    width:100%;
+    margin: auto;
+    background-color: $color-rosa;
+
+    .containerItemsServicios{
+        margin: 0 auto 1.8em;
+        padding-bottom: 2em;
+
+
+        .r-Servicios{
+            
+
+            .tituloSectionservicios{
+                font-family:$title-font;
+                padding-bottom: 1em;
+                color:$color-blanco;
+                width: auto;
+    
+            }
+
+        }
+
+
+    }
+}

@@ -13,10 +13,7 @@
             
 
             .tituloSectionservicios{
-                font-family:$title-font;
-                padding-bottom: 1em;
-                color:$color-blanco;
-                width: auto;
+                @include encabezados ($color-blanco);
     
             }
 

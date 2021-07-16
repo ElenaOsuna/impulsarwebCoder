@@ -5,13 +5,7 @@
         margin: 0;
         
            .tituloSectionhola{
-               display: flex;
-               justify-content: center;
-               width: 100%;
-               font-family:$title-font;
-               color:$color-rosa;
-               padding-bottom: 1em;
-
+              @include encabezados ($color-rosa);
 
         }
 

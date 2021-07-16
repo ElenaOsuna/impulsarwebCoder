@@ -9,9 +9,7 @@
         margin-bottom: 7.5em;
         
         .tituloSectionPromo{
-            margin-top: 50px;
-            font-family:$title-font;
-            color:$color-rosa;
+            @include encabezados ($color-rosa);
 
         }
         .bajadadeTitulo{

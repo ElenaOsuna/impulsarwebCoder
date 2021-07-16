@@ -9,13 +9,8 @@ width: 100%;
      margin: 3em 0;
 
     .tituloContacto{
-        margin: 1.25em auto;
-        font-size: 1.25em;
-        font-family:$fontDeco1;
-        color:$color-gris;
-        text-align:center
-       
-         }
+        @include encabezados ($color-gris);
+        }
 
     .txtImg{
             display: flex;
@@ -39,13 +34,7 @@ width: 100%;
         -moz-box-shadow: 14px 65px 74px -43px rgba(90,90,90,0.75);
 
         .tituloContacto{
-            margin: 1.25em auto;
-            font-size: 1.25em;
-            font-family:$fontDeco1;
-            color:$color-gris;
-            text-align:center
-           
-
+            @include encabezados ($color-gris);
         }
 
         .btnEnviar{

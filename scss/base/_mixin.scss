@@ -1,0 +1,8 @@
+//parametros en mixin//
+@mixin encabezados ($color) {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family:$title-font;
+    padding-bottom: 1em;
+}
